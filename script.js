@@ -34,6 +34,7 @@ const currencies = [
   'MYR'
 ]
 let selectElement = document.querySelector('#submit')
+
 submit.addEventListener('click', () => {
   let select1 = document.querySelector('#currency-select1').value
   let select2 = document.querySelector('#currency-select2').value
@@ -44,11 +45,11 @@ submit.addEventListener('click', () => {
     let rate = input * data.rates[select2]
     let result = document.querySelector('.result')
     result.textContent = rate
-})
+  })
 })
 
 // parseInt looks at a string value and turns it into an integer
 
 // line 41 sets the base for which currency you are starting with
 
-// data.rates grabs just the rates from the data in the api (insomnia)
+// data.rates grabs just the rates from the data in the api (insomnia example)

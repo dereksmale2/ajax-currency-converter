@@ -2,4 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: bisque;
+}
+
+.currency-options {
+  margin: 50px;
+  margin-left: 0px;
+  font-size: larger;
+}
+
+#currency-select1 {
+  background-color: gold;
+}
+
+#currency-select2 {
+  background-color: plum;
+}
+
+#input {
+  background-color: lightblue;
+}
+
+#result-placeholder {
+  background-color: lightgray;
 }
