@@ -2,10 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: bisque;
+  background-color: powderblue;
 }
 
-.currency-options {
+.currency-option1 {
+  margin: 50px;
+  margin-left: 0px;
+  font-size: larger;
+}
+
+.currency-option2{
   margin: 50px;
   margin-left: 0px;
   font-size: larger;
@@ -20,9 +26,15 @@
 }
 
 #input {
-  background-color: lightblue;
+  background-color: white;
 }
 
-#result-placeholder {
-  background-color: lightgray;
+#submit {
+  background-color: indianred;
+}
+
+.result {
+  border: 1px dashed hotpink;
+  width: 265px;
+  margin-top: 10px;
 }
